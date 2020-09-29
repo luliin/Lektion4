@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("\n---------Välkommen till Hederlige Harrys Bilar AB!---------\n ");
+        System.out.println("\n---------Välkommen till Hederlige Harrys Bilar AB!--------- ");
 
         boolean running = true;
         while (running) running = WelcomeMenu.welcomeMenu();

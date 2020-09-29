@@ -18,7 +18,7 @@ public class WelcomeMenu {
     static List<VehicleAd> ads = new ArrayList<>();
 
     public static boolean welcomeMenu() {
-        System.out.println("Välj vad du vill göra:\n\n" + "1. Skapa en bilannons\n"
+        System.out.println("\nVälj vad du vill göra:\n\n" + "1. Skapa en bilannons\n"
                 + "2. Skapa en husvagnsannons\n" +
                 "3. Skapa en motorcykelannons\n" +
                 "4. Lista alla annonser\n" +
@@ -57,7 +57,7 @@ public class WelcomeMenu {
                 System.out.print(ads.indexOf(ad) + 1 + ". ");
                 ad.printHeader();
             }
-            System.out.println("Vill du titta närmare på någon annons?");
+            System.out.println("\nVill du titta närmare på någon annons?");
             if (ads.size() > 1) {
                 System.out.println("Skriv 1-" + ads.size() + " eller n för nej: ");
             } else {
